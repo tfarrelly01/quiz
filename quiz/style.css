@@ -1,0 +1,24 @@
+.right-answer .wrong-answer {
+        display: inline;
+    }
+    .questions {
+        text-align: right;
+    }
+    .questions .right-answer .wrong-answer {
+        padding: 8px;
+        color: white;
+        background-color: 000000;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-style:outset;
+        text-decoration: none;
+        width: 8em;
+    }
+    ul {
+	    width: 90%;
+	    text-align: center;
+    	padding:0px;
+    	margin:0 auto;
+    	margin-bottom:40px;
+    	font-size: 24px;
+    	font-family: 'Muli', 'Verdana', sans-serif;
+    }
