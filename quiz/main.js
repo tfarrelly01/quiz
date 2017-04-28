@@ -14,6 +14,19 @@
 <button id="hide">Hide</button>
 <button id="show">Show</button>
 */
+$(document).ready(function() {
+    $("#Gready").fadeOut(2000);
+});
+
+
+$(document).ready(function() {
+    $("#GSet").fadeOut(5000);
+});
+
+
+$(document).ready(function() {
+    $("#Go").fadeOut(10000);
+});
 
 $(document).ready(function(){
     $("#reveal").click(function(){
