@@ -23,12 +23,7 @@ $(document).ready(function() {
         //  document.getElementById("score").innerHTML = totalScore;
 
     });
-/*
-use toggle to reveal a message if Correct or Incorrect  !!!!!
-    $(".correct-ans").click(function(){
-        $("button").after("<p>Correct Answer</p>");
-    });
-*/
+
     $(".wrong-ans").click(function(){
 	// Remove btn-default class and add btn-warning
 	    $(this).removeClass("btn-default").addClass("btn-danger");
@@ -39,4 +34,10 @@ use toggle to reveal a message if Correct or Incorrect  !!!!!
     });
 });
 
+/* 
+NOT USED - use toggle to reveal a message if Correct or Incorrect  !!!!!
+    $(".correct-ans").click(function(){
+        $("button").after("<p>Correct Answer</p>");
+    });
+*/
 

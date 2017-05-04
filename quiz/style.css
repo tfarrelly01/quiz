@@ -1,42 +1,43 @@
 
 body {
-    background: url("images/blank-map.png")
-    repeat-y center center;
-}
-h1 {
-    text-align: center;
-}
-.wrapper {
-	width: 720px;
-	margin: 0px auto;
+    font-family: Georgia, Times, serif;
+    background: url("images/world-map-poster.jpg")
+    repeat center center;
 }
 
-.header {
-	margin: 40px 0px 20px 0px;
+h1, h2, #total, a {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 350%;
+    text-shadow: 2px 2px 3px #666666;
+    text-align: center;
+    font-weight: bold;
 }
 
 .entry {
-	width: 220px;
-	float: left;
-	margin: 10px;
-	height: 198px;
+	width: 440px;
+	float: center;
+	margin: 15px;
+	height: 298px;
 	background-repeat: no-repeat;
 	background-position: bottom;
 }
 
 figure {
     display: block;
-    width: 202px;
-    height: 170px;
-    background-color: #e7e3d8;
+    width: 404px;
+    height: 255px;
     margin: 0;
 	padding: 9px;
 	text-align: left;
 }
 
 figure img {
-	width: 200px;
-	height: 150px;
+	width: 400px;
+	height: 225px;
 	border: 1px solid #d6d6d6;
 }
 
@@ -44,22 +45,30 @@ figure img {
     text-align: center;
 }
 
-#total {
+#total, #try-again {
     position: fixed;
+    float: center;
     bottom: 10px;
-    right: 30px;
-    width: 250px;
-    height: 100px;
-    background-color:turquoise; 
+    width: 400px;
+    height: 60px;
+    text-indent: 20px;
+}
+
+#total {
+    right: 15px;
+    background-color:#009900; 
 }
 
 #try-again {
-    position: fixed;
-    bottom: 10px;
-    left: 30px;
-    width: 250px;
-    height: 100px;
-    background-color:turquoise; 
+    left: 35px;
+    background-color:#CC0000; 
+}
+#total, a {
+    font-style: oblique;
+    font-stretch: expanded;
+    font-size: 250%;
+    letter-spacing: 0.2em;
+    text-indent: 20px;
 }
 
 
